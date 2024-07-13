@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    margin-top: 1rem;
+    width: 15%;
+    height: 120px;
+    background-color: rgb(144, 146, 146);
+    padding: 10px 20px 0px;
+}
+.menu li {
+    font-size: 1rem;
+    border: 1rem;
+}
+
+.header {
+    min-height: 150px;
+}
+img{
+    margin-top: 1rem;
+    width: 100%;
+}
+table{
+    border: #757575;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+     -webkit-box-shadow: 17px 20px 13px -11px rgb(158, 158, 158);
+
+}
+
+table thead th{
+    background-color: black;
+    color: #ffffff;
+    
+}
+.content iframe{
+    margin: 10rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+form h1{
+    font-size: 24px;
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+form button{
+    width: 90px;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+form.credencial input{
+    outline: none;
+    border-radius: 4px;
+    font-size: 19px;
+    padding: .3rem;
+}
+textarea{
+    border-radius: 4px;
+    font-size: 19px;
+    padding: .3rem;
+}
+.checkbox-group label {
+    display: inline; 
+    font-size: 10px; 
+}
+.content {
+    font-size: 1.4rem;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    margin:1rem 1rem 1rem;
+}
